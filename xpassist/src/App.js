@@ -4,9 +4,9 @@ import './App.css';
 function App() {
   return (
     <div >
-     <Navbar />
+     {/* <Navbar />
      <Body />
-     <Footer />
+     <Footer /> */}
     </div>
   );
 }
