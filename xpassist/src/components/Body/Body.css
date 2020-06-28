@@ -1,5 +1,5 @@
 .body {
-    height: 500px;
+    height: 375px;
     background-color: #fff2ef;
     box-shadow: 0px 3px 7px rgb(209, 209, 209);
     font-family: Ubuntu;
@@ -7,7 +7,7 @@
 }
 
 .container { 
-    padding-top: 125px;
+    padding-top: 65px;
 }
 .col-top {
     display: flex;
@@ -87,9 +87,9 @@
 .sun {
     position: absolute;
     right: 125px; 
-    top: -350px; 
-    height: 100px;
-    width: 100px;
+    top: -250px; 
+    height: 80px;
+    width: 80px;
     background-color: rgb(255, 238, 0); 
     border-radius: 50%;
     box-shadow: 0px 3px 700px 15px rgb(245, 236, 118);

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Button } from "reactstrap"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCloud, faTree, faKiwiBird } from '@fortawesome/free-solid-svg-icons'
+import { faCloud, faTree } from '@fortawesome/free-solid-svg-icons'
 import "./Body.css"
 
 const Body = () => {
