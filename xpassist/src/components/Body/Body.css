@@ -3,7 +3,7 @@
     background-color: #fff2ef;
     box-shadow: 0px 3px 7px rgb(209, 209, 209);
     font-family: Ubuntu;
-    color: #33475b
+    color: #009e89
 }
 
 .container { 
@@ -41,16 +41,22 @@
     color: #fff;
     background-color: #f57d5e;
     transform: scale(1.009);
+    box-shadow: 0px 3px 7px rgb(209, 209, 209);
 }
 
+.button:active, .button:focus {
+    background-color:#e07a61;
+    border: none;
+}
 
 .clouds {
     position: relative; 
     margin-right: -80px;
+    color: white; 
 }
 
 #icon {
-    color: white; 
+    
     font-size: 250px;
 }
 
@@ -58,6 +64,33 @@
     position: absolute;
     top: -30px; 
     left: 240px; 
-    color: white; 
     font-size: 60px;
+}
+
+.transition {
+    position: relative;
+    height: 100px;
+    background-image: linear-gradient(to top right, #aeeae3 , #009e89);
+    background-color: #aeeae3; 
+    border-top:  3px solid #33475b; 
+    border-bottom:  3px solid #33475b; 
+}
+
+.tree-icon {
+    position: absolute;
+    right: 20px; 
+    top: -80px; 
+    color: #009e08; 
+    font-size: 90px;
+}
+
+.sun {
+    position: absolute;
+    right: 125px; 
+    top: -350px; 
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 238, 0); 
+    border-radius: 50%;
+    box-shadow: 0px 3px 700px 15px rgb(245, 236, 118);
 }
