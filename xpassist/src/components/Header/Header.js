@@ -13,7 +13,8 @@ import {
   DropdownItem,
   NavbarText, 
 } from 'reactstrap';
-import styled from "styled-components"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faHotel, faStar } from '@fortawesome/free-solid-svg-icons'
 import { Link } from "react-router-dom"
 import { navigation } from "../../navigation"
 import "./Header.css"
@@ -26,9 +27,9 @@ const Header = (props) => {
   return (
     
     <div>
-
       <Navbar className="navbar" expand="md" >
         <NavbarBrand tag={Link} to="/">
+        <FontAwesomeIcon icon={faHotel} className="icon" />
           XpAssist
         </NavbarBrand>
         <NavbarToggler onClick={toggle} />

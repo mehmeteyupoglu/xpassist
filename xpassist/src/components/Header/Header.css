@@ -3,13 +3,16 @@
 
 
 .navbar {
-    /* background-image: linear-gradient(to left right left bottom, rgb(248, 255, 254) , rgb(255, 255, 255)); */
     background-color: white;
     box-shadow: 0px 3px 7px rgb(209, 209, 209);
     height: 85px; 
     display: flex;
 }
 
+.icon {
+    font-size: 35px;
+    margin-right: 10px;
+}
 .navbar-brand {
     font-family: Ubuntu;
     position: relative; 
@@ -17,7 +20,6 @@
     font-weight: 600;
     font-size: 30px;
     color: #ff8e73; 
-    
 }
 
 .navbar-brand:hover, .nav-item:hover {
