@@ -1,0 +1,63 @@
+.body {
+    height: 500px;
+    background-color: #fff2ef;
+    box-shadow: 0px 3px 7px rgb(209, 209, 209);
+    font-family: Ubuntu;
+    color: #33475b
+}
+
+.container { 
+    padding-top: 125px;
+}
+.col-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.brand > h1 {
+    font-weight: bold;
+}
+
+.button {
+    background-color: #ff7a59; 
+    color: white; 
+    border: none; 
+    height: 60px;
+    width: 150px;
+    border-radius: 2.5px;
+    margin: 50px 30px 0 0; 
+    transition: width 2s;
+}
+
+.button > h1 {
+    font-size: 20px;
+}
+
+.button > h1 > #span {
+    font-weight: 900;
+}
+
+.button:hover {
+    color: #fff;
+    background-color: #f57d5e;
+    transform: scale(1.009);
+}
+
+
+.clouds {
+    position: relative; 
+    margin-right: -80px;
+}
+
+#icon {
+    color: white; 
+    font-size: 250px;
+}
+
+#icon2 {
+    position: absolute;
+    top: -30px; 
+    left: 240px; 
+    color: white; 
+    font-size: 60px;
+}

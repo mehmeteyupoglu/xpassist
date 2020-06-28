@@ -1,4 +1,5 @@
 import Header from "./Header"
 import Main from "./Main"
+import Body from "./Body"
 
-export { Header, Main }
+export { Header, Main, Body }
