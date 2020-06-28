@@ -11,17 +11,12 @@ import {
   DropdownToggle,
   DropdownMenu,
   DropdownItem,
-  NavbarText
+  NavbarText, 
 } from 'reactstrap';
 import styled from "styled-components"
 import { Link } from "react-router-dom"
 import { navigation } from "../../navigation"
 import "./Header.css"
-
-const StyledNav = styled.div`
-
-
-`
 
 const Header = (props) => {
     const [isOpen, setIsOpen] = useState(false);
@@ -31,7 +26,7 @@ const Header = (props) => {
   return (
     
     <div>
-    <StyledNav>
+
       <Navbar className="navbar" expand="md" >
         <NavbarBrand tag={Link} to="/">
           XpAssist
@@ -51,7 +46,6 @@ const Header = (props) => {
           </div>
         </Collapse>
       </Navbar>
-    </StyledNav>
     </div>
   );
 }
