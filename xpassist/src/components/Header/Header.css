@@ -3,7 +3,8 @@
 
 
 .navbar {
-    background-image: linear-gradient(to right, rgb(240, 250, 249) , rgb(255, 255, 255));
+    /* background-image: linear-gradient(to left right left bottom, rgb(248, 255, 254) , rgb(255, 255, 255)); */
+    background-color: white;
     box-shadow: 0px 3px 7px rgb(209, 209, 209);
     height: 85px; 
     display: flex;
@@ -15,7 +16,7 @@
     padding-left: 250px;
     font-weight: 600;
     font-size: 30px;
-    color: #f37758; 
+    color: #ff8e73; 
     
 }
 
@@ -34,7 +35,7 @@
 }
 
 .nav-item {
-    color: rgb(114, 116, 141); 
+    color: #425b75; 
     font-weight: 600;
     font-family: Cairo;
     /* padding-left: 0px; */
